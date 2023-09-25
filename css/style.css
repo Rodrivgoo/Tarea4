@@ -1,0 +1,296 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto; 
+}
+.header{
+    border-radius: 20%;
+    display: block;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+}
+.navbar-logo img {
+    width: 10%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 10px;
+}
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+    transition: color 0.3s; /* Añadimos una transición suave */
+    cursor: pointer; /* Cambiamos el cursor al pasar sobre el texto */
+}
+.navbar-logo a:hover{
+    color: rgb(98, 98, 99);
+    font-size: 30px;
+}
+.letras{
+    font-family: sans-serif,'Arial Narrow', 'Franklin Gothic Medium',Arial;
+    font-size: 150%;
+}
+.malcom,
+.Muñoz {
+  position: relative;
+  z-index: 1;
+}
+.malcom::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  bottom: -5px;
+  border-radius: 50%;
+  background-color: #0b0607; /* Color de la mancha */
+  transform: rotate(-3deg); /* Ajusta el ángulo de la mancha */
+  z-index: -1;
+}
+.Muñoz{
+    font-weight: bold;
+}
+.imagen {
+    max-width: 50%; 
+    height: auto;
+    border-top-width: 100rem;
+    border-radius: 25%; 
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.carrusel-imagen {
+    object-fit: cover;
+    max-width: 50%; 
+    height: auto; 
+    margin: 0 auto;
+    display: block;
+    border-radius: 250px;
+}
+
+
+
+footer{
+    margin-top: 200px;
+}
+.color-fot{
+    color: rgb(0, 3, 5);
+    text-align: center;
+    font-weight: 50;
+}
+.color-link{
+    color: rgb(30, 29, 29);
+    font-weight: 50;
+    transition: color 0.3s; /* Añadimos una transición suave */
+    cursor: pointer; /* Cambiamos el cursor al pasar sobre el texto */
+
+}
+.color-link:hover{
+    color: blue;
+}
+.posicion{
+    margin-top: 20px; /* Ajusta la separación vertical */
+    text-align: center; /* Centra horizontalmente */
+}
+.maain{
+    margin-top: 50px;
+}
+.rorro-body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(189,255,255,1) 57%, rgba(189,255,255,1) 100%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.rorro-header {
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+}
+.header_links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.header_links li {
+    margin-right: 30px;
+}
+.header_links li a {
+    text-decoration: none;
+    color: #333;
+}
+.header_links li a:hover {
+    text-decoration: underline;
+    
+}
+.header_content h3 {
+    background-color: aqua;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pasatiempos {
+    background-color: gainsboro;
+    margin: 0 10% 0 10% ;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10%;
+}
+.text_pasatiempos {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.text_pasatiempos h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold
+}
+
+.rorro-footer p {
+    margin-bottom: 3px;
+}
+.rorro-main{
+    margin-top: 15px;
+}
+.secondary_nav {
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0;
+}
+.icon {
+    display: flex;
+}
+.icon p {
+margin: 8px 0 8px 5;
+}
+.text {
+    text-align: center;
+}
+.text h1 {
+    font-size: 50px;
+}
+.text p {
+    font-size: 20px;
+}
+.footer_index {
+    text-align: center;
+    color: rgb(0, 3, 5);
+    font-weight: 50;
+}
+.body_index {
+    background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 0%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(50%);
+}
+
+.header_galery {
+    background-color: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: 5% auto;
+    padding: 20px;
+    max-width: 800px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+}
+.calculator {
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    min-height: 60vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr); 
+    gap: 10px;
+}
+
+.calculator > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: center;
+}
+
+.output .display {
+    color: black;
+    font-size: 1.85rem;
+    text-align: center;
+    width: 80%; 
+    max-width: 200px; 
+}
+
+
+.calculator > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+@media (max-width: 768px) {
+    .calculator {
+        min-height: auto; 
+        grid-template-columns: repeat(4, 1fr); 
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .output {
+        padding: 5px; 
+    }
+    .output .display {
+        font-size: 1.5rem;
+    }
+    .calculator > button {
+        font-size: 1.5rem;
+    }
+}
