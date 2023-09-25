@@ -11,7 +11,7 @@ body {
     padding: 10px;
 }
 .navbar-logo img {
-    width: 10%; /* Ajusta el tamaño de la imagen */
+    width: 10%;
     height: auto;
     margin-right: 10px;
 }
@@ -20,36 +20,17 @@ body {
     text-decoration: none;
     font-size: 25px;
     margin-right: 20px;
-    transition: color 0.3s; /* Añadimos una transición suave */
-    cursor: pointer; /* Cambiamos el cursor al pasar sobre el texto */
+    transition: color 0.3s;
+    cursor: pointer;
 }
 .navbar-logo a:hover{
     color: rgb(98, 98, 99);
-    font-size: 30px;
 }
 .letras{
     font-family: sans-serif,'Arial Narrow', 'Franklin Gothic Medium',Arial;
     font-size: 150%;
 }
-.malcom,
-.Muñoz {
-  position: relative;
-  z-index: 1;
-}
-.malcom::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 10px;
-  bottom: -5px;
-  border-radius: 50%;
-  background-color: #0b0607; /* Color de la mancha */
-  transform: rotate(-3deg); /* Ajusta el ángulo de la mancha */
-  z-index: -1;
-}
-.Muñoz{
-    font-weight: bold;
-}
+
 .imagen {
     max-width: 50%; 
     height: auto;
@@ -69,8 +50,6 @@ body {
     border-radius: 250px;
 }
 
-
-
 footer{
     margin-top: 200px;
 }
@@ -82,16 +61,16 @@ footer{
 .color-link{
     color: rgb(30, 29, 29);
     font-weight: 50;
-    transition: color 0.3s; /* Añadimos una transición suave */
-    cursor: pointer; /* Cambiamos el cursor al pasar sobre el texto */
+    transition: color 0.3s;
+    cursor: pointer;
 
 }
 .color-link:hover{
     color: blue;
 }
 .posicion{
-    margin-top: 20px; /* Ajusta la separación vertical */
-    text-align: center; /* Centra horizontalmente */
+    margin-top: 20px;
+    text-align: center;
 }
 .maain{
     margin-top: 50px;
